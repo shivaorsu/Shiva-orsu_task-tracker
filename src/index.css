@@ -1,0 +1,13 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.task-manager {
+  max-width: 400px;
+  margin: auto;
+}
+
+.task-form input {
+  margin-right: 10px;
+}

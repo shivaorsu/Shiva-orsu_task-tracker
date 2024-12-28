@@ -1,0 +1,78 @@
+/* taskManager.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Task Manager Custom Styling */
+.task-title {
+  @apply text-2xl font-bold text-center text-blue-600 mb-4;
+}
+
+.task-add-container {
+  @apply flex gap-2 mb-6;
+}
+
+.task-input {
+  @apply flex-grow p-2 border rounded;
+}
+
+.task-add-button {
+  @apply px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition;
+}
+
+.task-filter-container {
+  @apply flex justify-center gap-4 mb-6;
+}
+
+.task-filter-button {
+  @apply px-4 py-2 rounded bg-gray-200;
+}
+
+.task-filter-button.active {
+  @apply bg-blue-600 text-white;
+}
+
+.task-item {
+  @apply flex justify-between items-center p-2 border-b last:border-none;
+}
+
+.task-details {
+  @apply flex items-center gap-2;
+}
+
+.task-checkbox {
+  @apply cursor-pointer;
+}
+
+.task-title {
+  @apply text-gray-800;
+}
+
+.task-title.completed {
+  @apply line-through text-gray-400;
+}
+
+.task-action-buttons {
+  @apply flex gap-2;
+}
+
+.task-edit-button,
+.task-delete-button {
+  @apply text-blue-600 hover:underline;
+}
+
+.task-delete-button {
+  @apply text-red-600;
+}
+
+.task-edit-input {
+  @apply flex-grow p-1 border rounded mr-2;
+}
+
+.task-save-button {
+  @apply px-4 py-1 text-white bg-green-600 rounded hover:bg-green-700 transition;
+}
+
+.task-no-tasks {
+  @apply text-center text-gray-500;
+}
