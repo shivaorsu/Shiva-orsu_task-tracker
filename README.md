@@ -70,6 +70,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+
+
+
+
+
+
 # Task Manager Application - Login
 
 This is a simple Task Manager application that includes login functionality. After the user successfully logs in, they are redirected to the Task Manager interface where they can manage tasks. This application uses React for front-end development and basic authentication for the login functionality.
