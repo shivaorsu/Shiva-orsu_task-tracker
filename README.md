@@ -100,4 +100,24 @@ This is a simple Task Manager application that includes login functionality. Aft
 
 
 
+src/
+|-- components/
+|   |-- AuthLogin.js        # Contains the login form and logic for user authentication
+|   |-- TaskAdd.js          # Contains the form to add tasks to the task list
+|   |-- TaskList.js         # Displays the list of tasks
+|   |-- TaskManager.js      # Main Task Manager component that integrates TaskAdd and TaskList
+|   |-- taskManager.css     # Contains Tailwind CSS utility classes and styles for Task Manager
+|
+|-- redux/
+|   |-- taskSlice.js        # Redux slice for managing tasks (using @reduxjs/toolkit)
+|   |-- store.js            # Sets up the Redux store, including taskSlice
+|
+|-- App.js                  # Main application entry file with routing setup and the root component
+|-- index.js                # Entry point for rendering the React App component in the browser
+|
+public/
+|-- index.html              # HTML template file that serves as the app’s base structure
+
+
+
 This README will help guide other developers or users in understanding how the project works and how to modify and extend it.
